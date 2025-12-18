@@ -1,0 +1,88 @@
+Web server request processing:
+......................................................
+
+1.multi threaded model
+2.single or limited threaded model
+
+
+1.multi threaded model:
+
+Each client request is handled by single thread
+
+Request per thread model 
+ for
+	 1000 request = 1000 threads
+	 N re = N threads
+
+.single or limited threaded model
+   single thread or fixed number of threads(10) can handle large concurrency -  non blocking / async
+	
+	1000 requests= 10 threads
+****************
+12/18/25
+c/c++
+ binary - .exe , dll
+ unix - app
+
+java :
+ jar - java archive
+ war  - web archive
+ ear -enterprise archive - deprecated
+
+
+server config - server.xml
+app config - context.xml
+wrapper config - web.xml
+
+Listener:
+  It is java program, it is started based on some events.
+event could be
+	before server start
+	during server start
+	after server ready
+
+Starting a single tomcat server:
+......................................................
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+	It lists version informations about tomcat,jre
+
+APR- Apache Portable Runtime:
+......................................................
+ APR- Apache Portable Runtime : It is a library that boots tomcat performance
+       ,scalability,and native integration by providing advanced IO,os level functions
+       and native process handling, often used in SSL for secure connections, enabling
+       tomcat to act more like full fledged web server
+
+server setup:
+
+1. server info
+2.apr initialization
+3.connect initialization 
+4.engine initialization
+5.context initialization
+6.deployment
+7.ready to accept request
+
+Admin Applications:
+Tomcat Virtual Host Manager :
+	To manage hosts like adding ,removing,edition host informations
+Tomcat Web Application Manager
+	To deploy,stop,undeploy and monitor web apps
+
+
+How to deploy web apps?
+
+spring boot application...
+ -with embedded tomcat
+ -with external tomcat
+
+
+
+
+
+
+
+
+
+
+
