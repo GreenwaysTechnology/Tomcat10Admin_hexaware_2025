@@ -147,11 +147,110 @@ server.xml
           </Engine>
      </Service>
 </Server>
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Memory Management:
+
+A.java   ----compiler---A.class---->load class---->jvm starts creating object----create a meta object(Class Object)----->method,variable,constructors-----> actual instance is created.
+
+class A {
+
+}
+
+new A()----->object creation------Eden
+
+Garbage collection
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Runtime parameter to jvm?
+
+when run java applications, you need to start jvm first (it is process on which java apps are running including tomcat)
+
+java       -cp MainApp
+
+java --options -cp MainApp
+
+Prefix           Category                                  stability
+-  or --                  Standard Options                 Stable,document
+-X                Non Standard options          Common, but not guranteed
+-XX:+         Advanced/experimental  options    jvm Specific           
+-XX:-     Advanced/experimental  options    jvm Specific           
+
+-XX:+  = + Add a feature
+-XX:-   =  - Remove a feature
+
+eg:
+java -verion
+java -cp or java --class-path
+
+-X -  means Extended 
+
+eg:
+ -Xms512m  - initali heap size
+-Xmx4g - max heap size
+
+java -Xms512m -Xmx4g -cp App 
+
+   now the jvm starts with 512 mb initial heap size and it can grow up to 4g
+
+what if these options keep on growing, or i need to set many more options
+
+java -Xms512m -Xmx4g  -XnewOne -XnewOne -Xtwo -cp App 
+
+how to reuse these options in future, so keeping this as part of java command not good idea, so you need to set this via environment variables
+
+SET _JAVA_OPTIONS=-Xms512m -Xmx1024m  - windows
+export _JAVA_OPTIONS="-Xms512m -Xmx1024m" - Linux
+
+java -cp App
+  now jvm automatically takes all parameters from that environment variable.
 
 
+-XX:+ and -XX:-
++ means enable a feature
+- means disable a feature.
 
+-XX:+HeapDumponOutofMemoryError
+     create heap dump information when outofmemory.
+ Turn on heap dump on oom
+   
+-XX:-UseGCOverheadLimit
+	Turn of GC overhead limit check.
 
+eg:
+java
+  -XX:+UseG1GC
+  -XX:+MaxGCPauseMillis=200
+  -XX:++HeapDumponOutofMemoryError
+  -XX: HeapDumppath=/opt/dumps
+-jar app
 
+Tomcat and jvm options configuration:
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+In tomcat we have set two folders classification
 
+≠ CATALINA_BASE
+└── tomcat-base\           → CATALINA_BASE (runtime)
+    ├── bin\
+    │   └── setenv.bat
+    ├── conf\
+    ├── webapps\
+    ├── logs\
+    ├── temp\
+    └── work\
+
+setenv.bat
+ This is the file where we define all java options  (-XX or -X)
+ 
+startup ---->Catalina.bat---->$CATALINA_BASE/bin/setenv.bat
+
+setenv.bat
+@echo off
+
+set  "JAVA_OPTS=-Xms128m -Xmx128m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=G:\hexaware\heapdump -XX:+ExitOnOutOfMemoryError"
+
+GC Log configuration:
+
+@echo off
+set  "JAVA_OPTS=-Xms128m -Xmx128m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=G:\hexaware\labs\heapmemory -Xlog:gc*,gc+heap=info,gc+age=trace  -Xlog:gc*:file=G:\hexaware\labs\heapmemory\gclogs\gc.log:time,uptime,level,tags:filecount=5,filesize=10M -XX:+ExitOnOutOfMemoryError"
 
 
