@@ -253,4 +253,49 @@ GC Log configuration:
 @echo off
 set  "JAVA_OPTS=-Xms128m -Xmx128m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=G:\hexaware\labs\heapmemory -Xlog:gc*,gc+heap=info,gc+age=trace  -Xlog:gc*:file=G:\hexaware\labs\heapmemory\gclogs\gc.log:time,uptime,level,tags:filecount=5,filesize=10M -XX:+ExitOnOutOfMemoryError"
 
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+										Tomcat and Threading Model
+
+
+Types of Threads
+
+1.Request Receiver
+	There is a thread who receives request and sends response
+2.Request Processor
+	 There is a thread who does actual processing logic like database connections,doing some pdf, image processing...
+
+
+
+JAVA_OPTS
+CATALINA_OPTS
+Both are jvm options which are supplied to the containers
+
+JAVA_OPTS - used for all tomcat commands - start,stop,version etc.....
+CATALINA_OPTS - used only when starting tomcat...
+
+JMX options
+  can be specified via catalina_opts
+
+Recommand configuration (catalina_opts)
+
+1.heap options -Xms,-Xmx
+2.Gc options
+3.JMX options
+
+@echo off
+set CATALINA_OPTS=%CATALINA_OPTS% -Dcom.sun.management.jmxremote
+set CATALINA_OPTS=%CATALINA_OPTS% -Dcom.sun.management.jmxremote.port=9000
+set CATALINA_OPTS=%CATALINA_OPTS% -Dcom.sun.management.jmxremote.authenticate=false
+set CATALINA_OPTS=%CATALINA_OPTS% -Dcom.sun.management.jmxremote.ssl=false
+
+set CATALINA_OPTS="-Xms4g -Xmx4g"
+
+What if i mention the same configuration in JAVA_OPTS
+
+Note:
+ catalina options only executed during startup 
+eg:
+   startup.nat
+
+if y run shutdown.bat , tomcat tries to allocate 4gb memory...
 
