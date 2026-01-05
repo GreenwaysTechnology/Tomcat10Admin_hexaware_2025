@@ -1,0 +1,765 @@
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 11:48:50.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 11:48:50.802 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 11:48:50.990 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:48:51.011 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:48:51.011 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [565] milliseconds
+05-Jan-2026 11:48:51.088 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 11:48:51.088 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 11:48:51.091 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 11:48:51.117 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 11:48:51.149 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 11:48:51.149 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 11:48:52.162 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 11:48:52.162 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 11:48:53.181 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 11:48:53.213 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 11:48:55.048 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 11:48:56.234 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 11:48:56.819 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1020, securePort=-1, UDP Port=-1, id={-106 62 29 -104 50 -105 70 74 -121 -65 17 109 55 -76 -6 60 }, payload={}, command={}, domain={}]]
+05-Jan-2026 11:48:58.927 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,714] ms
+05-Jan-2026 11:48:58.927 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 11:48:58.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [52] ms
+05-Jan-2026 11:48:58.979 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 11:48:59.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [455] ms
+05-Jan-2026 11:48:59.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 11:48:59.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [45] ms
+05-Jan-2026 11:48:59.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 11:48:59.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [40] ms
+05-Jan-2026 11:48:59.523 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 11:48:59.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [32] ms
+05-Jan-2026 11:48:59.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:48:59.588 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:48:59.595 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8579] milliseconds
+05-Jan-2026 11:54:19.889 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/clusterapp]
+05-Jan-2026 11:54:19.971 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 11:54:22.303 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 11:54:25.179 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,207] ms
+05-Jan-2026 11:56:58.455 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=482652, securePort=-1, UDP Port=-1, id={-106 62 29 -104 50 -105 70 74 -121 -65 17 109 55 -76 -6 60 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 11:57:02.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 11:57:02.030 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:57:02.335 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:57:02.337 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 11:57:02.469 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:57:02.485 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:57:02.502 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:57:02.503 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:58:25.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 11:58:25.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 11:58:25.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 11:58:25.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 11:58:25.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 11:58:25.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 11:58:25.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 11:58:25.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 11:58:25.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 11:58:25.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 11:58:25.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 11:58:25.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 11:58:25.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 11:58:25.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 11:58:25.456 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 11:58:25.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 11:58:25.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 11:58:25.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 11:58:25.457 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 11:58:25.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 11:58:25.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 11:58:25.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 11:58:25.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 11:58:25.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 11:58:25.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 11:58:25.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 11:58:25.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 11:58:25.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 11:58:25.459 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 11:58:25.461 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 11:58:25.465 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 11:58:25.654 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:58:25.674 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:58:25.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [515] milliseconds
+05-Jan-2026 11:58:25.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 11:58:25.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 11:58:25.740 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 11:58:25.784 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 11:58:25.806 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 11:58:25.813 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 11:58:26.821 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 11:58:26.823 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 11:58:27.831 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 11:58:27.869 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 11:58:30.678 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 11:58:31.407 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 11:58:32.405 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1030, securePort=-1, UDP Port=-1, id={-120 -97 -52 -12 -51 -79 70 120 -93 -111 11 2 -95 85 91 -75 }, payload={}, command={}, domain={}]]
+05-Jan-2026 11:58:34.187 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [6,317] ms
+05-Jan-2026 11:58:34.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 11:58:34.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [40] ms
+05-Jan-2026 11:58:34.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 11:58:34.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [401] ms
+05-Jan-2026 11:58:34.632 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 11:58:34.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [39] ms
+05-Jan-2026 11:58:34.671 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 11:58:34.712 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [41] ms
+05-Jan-2026 11:58:34.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 11:58:34.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [31] ms
+05-Jan-2026 11:58:34.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 11:58:34.762 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 11:58:34.767 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9090] milliseconds
+05-Jan-2026 12:02:14.590 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=223223, securePort=-1, UDP Port=-1, id={-120 -97 -52 -12 -51 -79 70 120 -93 -111 11 2 -95 85 91 -75 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:02:21.346 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:02:21.346 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:02:21.659 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:02:21.660 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:02:21.807 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:02:21.823 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:02:21.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:02:21.841 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:04:05.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:04:05.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:04:05.478 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:04:05.479 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:04:05.656 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:04:05.688 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:04:05.688 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [545] milliseconds
+05-Jan-2026 12:04:05.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:04:05.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:04:05.766 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:04:05.813 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:04:05.839 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:04:05.843 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:04:06.850 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:04:06.850 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:04:07.865 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:04:07.881 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:04:10.609 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:04:10.933 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:04:11.890 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1021, securePort=-1, UDP Port=-1, id={0 92 81 -41 -80 43 71 96 -79 56 47 85 39 115 -84 83 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:04:14.266 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [6,385] ms
+05-Jan-2026 12:04:14.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:04:14.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [47] ms
+05-Jan-2026 12:04:14.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:04:14.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [404] ms
+05-Jan-2026 12:04:14.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:04:14.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [49] ms
+05-Jan-2026 12:04:14.766 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:04:14.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [40] ms
+05-Jan-2026 12:04:14.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:04:14.828 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [22] ms
+05-Jan-2026 12:04:14.828 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:04:14.870 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:04:14.882 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9189] milliseconds
+05-Jan-2026 12:06:33.301 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=142429, securePort=-1, UDP Port=-1, id={0 92 81 -41 -80 43 71 96 -79 56 47 85 39 115 -84 83 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:06:37.194 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:06:37.194 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:06:37.502 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:06:37.503 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:06:37.652 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:06:37.668 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:06:37.685 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:06:37.686 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:08:28.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:08:28.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:08:28.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:08:28.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:08:28.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:08:28.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:08:28.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:08:28.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:08:28.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:08:28.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:08:28.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:08:28.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:08:28.100 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:08:28.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:08:28.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:08:28.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:08:28.101 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:08:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:08:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:08:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:08:28.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:08:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:08:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:08:28.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:08:28.105 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:08:28.108 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:08:28.283 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:08:28.302 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:08:28.304 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [485] milliseconds
+05-Jan-2026 12:08:28.373 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:08:28.374 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:08:28.379 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:08:28.414 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:08:28.433 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:08:28.445 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:08:29.452 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:08:29.454 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:08:30.455 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:08:30.491 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:08:32.827 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:08:36.565 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:08:36.750 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [6,259] ms
+05-Jan-2026 12:08:36.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:08:36.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [43] ms
+05-Jan-2026 12:08:36.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:08:37.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [396] ms
+05-Jan-2026 12:08:37.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:08:37.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [37] ms
+05-Jan-2026 12:08:37.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:08:37.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [33] ms
+05-Jan-2026 12:08:37.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:08:37.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [23] ms
+05-Jan-2026 12:08:37.290 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:08:37.304 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:08:37.309 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9004] milliseconds
+05-Jan-2026 12:08:37.404 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1032, securePort=-1, UDP Port=-1, id={114 -32 -63 -4 -73 16 74 91 -102 -68 101 48 33 -5 -73 36 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:09:31.315 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=54941, securePort=-1, UDP Port=-1, id={114 -32 -63 -4 -73 16 74 91 -102 -68 101 48 33 -5 -73 36 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:09:34.842 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:09:34.842 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:09:35.358 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:09:35.359 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:09:35.511 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:09:35.527 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:09:35.544 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:09:35.545 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:10:51.321 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:10:51.325 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:10:51.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:10:51.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:10:51.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:10:51.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:10:51.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:10:51.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:10:51.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:10:51.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:10:51.329 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:10:51.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:10:51.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:10:51.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:10:51.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:10:51.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:10:51.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:10:51.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:10:51.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:10:51.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:10:51.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:10:51.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:10:51.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:10:51.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:10:51.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:10:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:10:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:10:51.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:10:51.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:10:51.342 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:10:51.346 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:10:51.543 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:10:51.563 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:10:51.565 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [544] milliseconds
+05-Jan-2026 12:10:51.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:10:51.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:10:51.639 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:10:51.681 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:10:51.703 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:10:51.716 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:10:52.721 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:10:52.724 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:10:53.725 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:10:53.782 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:10:56.713 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:10:56.789 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:10:57.321 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1026, securePort=-1, UDP Port=-1, id={61 -27 -73 63 53 -83 65 18 -105 -35 -100 17 82 91 -41 96 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:11:00.499 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [6,716] ms
+05-Jan-2026 12:11:00.501 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:11:00.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [50] ms
+05-Jan-2026 12:11:00.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:11:01.013 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [462] ms
+05-Jan-2026 12:11:01.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:11:01.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [44] ms
+05-Jan-2026 12:11:01.059 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:11:01.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [40] ms
+05-Jan-2026 12:11:01.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:11:01.130 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [30] ms
+05-Jan-2026 12:11:01.133 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:11:01.151 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:11:01.158 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9591] milliseconds
+05-Jan-2026 12:11:49.113 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=52824, securePort=-1, UDP Port=-1, id={61 -27 -73 63 53 -83 65 18 -105 -35 -100 17 82 91 -41 96 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:12:10.424 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1031, securePort=-1, UDP Port=-1, id={-49 -60 88 120 -12 79 68 36 -105 32 101 -21 -112 -109 -120 94 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:26:03.099 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:26:03.099 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:26:03.401 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:26:03.411 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:26:03.550 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:26:03.567 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:26:03.585 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:26:03.585 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:26:07.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:26:07.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:26:07.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:26:07.171 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:26:07.357 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:26:07.373 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:26:07.373 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [520] milliseconds
+05-Jan-2026 12:26:07.436 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:26:07.452 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:26:07.452 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:26:07.499 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:26:07.515 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:26:07.531 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:26:07.931 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=838541, securePort=-1, UDP Port=-1, id={-49 -60 88 120 -12 79 68 36 -105 32 101 -21 -112 -109 -120 94 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:26:08.545 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:26:08.545 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:26:08.545 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:26:09.560 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:26:09.579 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:26:11.280 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:26:13.806 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=1026, securePort=-1, UDP Port=-1, id={67 -88 -127 54 8 -106 75 -22 -124 -47 101 -114 23 110 -124 12 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:26:15.038 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,459] ms
+05-Jan-2026 12:26:15.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:26:15.084 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [46] ms
+05-Jan-2026 12:26:15.096 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:26:15.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [468] ms
+05-Jan-2026 12:26:15.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:26:15.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [34] ms
+05-Jan-2026 12:26:15.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:26:15.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [41] ms
+05-Jan-2026 12:26:15.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:26:15.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [34] ms
+05-Jan-2026 12:26:15.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:26:15.683 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:26:15.683 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8304] milliseconds
+05-Jan-2026 12:26:21.062 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=8281, securePort=-1, UDP Port=-1, id={67 -88 -127 54 8 -106 75 -22 -124 -47 101 -114 23 110 -124 12 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:30:41.868 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1112463, securePort=-1, UDP Port=-1, id={-49 -60 88 120 -12 79 68 36 -105 32 101 -21 -112 -109 -120 94 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:31:03.032 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1032, securePort=-1, UDP Port=-1, id={-24 47 63 -28 62 -37 68 -54 -93 43 -46 -106 -43 94 -91 48 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:39:17.775 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=1026, securePort=-1, UDP Port=-1, id={-98 19 44 -80 98 77 65 9 -121 -116 -125 108 -77 -54 114 39 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:39:24.078 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=7331, securePort=-1, UDP Port=-1, id={-98 19 44 -80 98 77 65 9 -121 -116 -125 108 -77 -54 114 39 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:40:21.922 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:40:21.922 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:40:22.234 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:40:22.234 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:40:22.377 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:40:22.395 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:40:22.411 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:40:22.411 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:40:48.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:40:48.983 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:40:48.997 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:40:49.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:40:49.171 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:40:49.171 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [495] milliseconds
+05-Jan-2026 12:40:49.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:40:49.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:40:49.250 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:40:49.281 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:40:49.297 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:40:49.297 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:40:49.784 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=587784, securePort=-1, UDP Port=-1, id={-24 47 63 -28 62 -37 68 -54 -93 43 -46 -106 -43 94 -91 48 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:40:50.310 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:40:50.313 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:40:50.313 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:40:51.321 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:40:51.337 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:40:52.780 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:40:56.703 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,366] ms
+05-Jan-2026 12:40:56.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:40:56.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [40] ms
+05-Jan-2026 12:40:56.743 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:40:57.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [398] ms
+05-Jan-2026 12:40:57.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:40:57.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [40] ms
+05-Jan-2026 12:40:57.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:40:57.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [32] ms
+05-Jan-2026 12:40:57.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:40:57.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [23] ms
+05-Jan-2026 12:40:57.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:40:57.259 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:40:57.265 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8080] milliseconds
+05-Jan-2026 12:43:47.441 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=1025, securePort=-1, UDP Port=-1, id={91 -111 -98 56 -35 -43 73 -127 -110 42 62 -125 51 -29 -45 -39 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:43:53.045 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4003,{192, 168, 0, 102},4003, alive=6632, securePort=-1, UDP Port=-1, id={91 -111 -98 56 -35 -43 73 -127 -110 42 62 -125 51 -29 -45 -39 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 12:43:58.518 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 12:43:58.518 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:43:58.820 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:43:58.820 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 12:43:58.981 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:43:58.997 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:43:59.014 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:43:59.014 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:44:08.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 12:44:08.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 12:44:08.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 12:44:08.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 12:44:08.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 12:44:08.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 12:44:08.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 12:44:08.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 12:44:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 12:44:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:44:08.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:44:08.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 12:44:08.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 12:44:08.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 12:44:08.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 12:44:08.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 12:44:08.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 12:44:08.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 12:44:08.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 12:44:08.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 12:44:08.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 12:44:08.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 12:44:08.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 12:44:08.479 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 12:44:08.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 12:44:08.656 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:44:08.679 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:44:08.679 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [548] milliseconds
+05-Jan-2026 12:44:08.734 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 12:44:08.734 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 12:44:08.744 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 12:44:08.781 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 12:44:08.813 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 12:44:08.813 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 12:44:09.821 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 12:44:09.821 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 12:44:10.825 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 12:44:10.857 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 12:44:12.589 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 12:44:13.870 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 12:44:14.850 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1024, securePort=-1, UDP Port=-1, id={-22 -93 -51 68 21 78 64 56 -113 -126 28 -124 -57 -26 -90 15 }, payload={}, command={}, domain={}]]
+05-Jan-2026 12:44:16.705 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,848] ms
+05-Jan-2026 12:44:16.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 12:44:16.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [47] ms
+05-Jan-2026 12:44:16.752 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 12:44:17.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [478] ms
+05-Jan-2026 12:44:17.230 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 12:44:17.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [51] ms
+05-Jan-2026 12:44:17.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 12:44:17.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [40] ms
+05-Jan-2026 12:44:17.325 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 12:44:17.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [19] ms
+05-Jan-2026 12:44:17.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 12:44:17.365 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 12:44:17.381 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8701] milliseconds
+05-Jan-2026 13:00:44.825 INFO [Catalina-utility-2] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberDisappeared Received member disappeared:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=990995, securePort=-1, UDP Port=-1, id={-22 -93 -51 68 21 78 64 56 -113 -126 28 -124 -57 -26 -90 15 }, payload={}, command={66 65 66 89 45 65 76 69 88 ...(9)}, domain={}]]
+05-Jan-2026 13:00:48.693 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Jan-2026 13:00:48.693 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 13:00:49.010 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 13:00:49.012 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 13:00:49.153 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 13:00:49.170 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 13:00:49.186 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 13:00:49.186 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 13:00:52.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 13:00:52.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 13:00:52.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 13:00:52.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 13:00:52.877 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 13:00:52.880 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 13:00:53.054 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 13:00:53.085 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 13:00:53.085 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [489] milliseconds
+05-Jan-2026 13:00:53.151 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 13:00:53.151 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 13:00:53.151 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 13:00:53.195 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 13:00:53.227 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 13:00:53.242 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 13:00:54.245 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 13:00:54.245 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 13:00:55.252 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 13:00:55.290 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 13:00:57.086 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 13:00:58.302 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 13:00:58.937 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1037, securePort=-1, UDP Port=-1, id={127 97 35 -85 41 -105 68 65 -68 22 11 94 56 -79 13 116 }, payload={}, command={}, domain={}]]
+05-Jan-2026 13:01:01.000 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,710] ms
+05-Jan-2026 13:01:01.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 13:01:01.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [47] ms
+05-Jan-2026 13:01:01.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 13:01:01.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [467] ms
+05-Jan-2026 13:01:01.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 13:01:01.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [37] ms
+05-Jan-2026 13:01:01.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 13:01:01.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [43] ms
+05-Jan-2026 13:01:01.594 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 13:01:01.630 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [31] ms
+05-Jan-2026 13:01:01.632 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 13:01:01.652 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 13:01:01.652 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8568] milliseconds
+05-Jan-2026 15:25:02.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 15:25:02.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 15:25:02.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 15:25:02.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 15:25:02.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 15:25:02.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 15:25:02.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 15:25:02.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 15:25:02.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 15:25:02.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 15:25:02.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 15:25:02.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 15:25:02.718 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 15:25:02.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 15:25:02.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 15:25:02.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 15:25:02.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 15:25:02.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 15:25:02.721 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 15:25:02.725 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 15:25:02.934 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 15:25:02.973 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 15:25:02.976 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [605] milliseconds
+05-Jan-2026 15:25:03.040 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 15:25:03.040 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 15:25:03.047 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 15:25:03.088 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 15:25:03.115 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 15:25:03.122 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 15:25:04.124 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 15:25:04.128 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 15:25:05.130 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 15:25:05.177 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 15:25:06.802 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 15:25:10.318 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [5,140] ms
+05-Jan-2026 15:25:10.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 15:25:10.353 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [35] ms
+05-Jan-2026 15:25:10.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 15:25:10.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [339] ms
+05-Jan-2026 15:25:10.694 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 15:25:10.721 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [28] ms
+05-Jan-2026 15:25:10.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 15:25:10.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [27] ms
+05-Jan-2026 15:25:10.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 15:25:10.795 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [46] ms
+05-Jan-2026 15:25:10.801 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 15:25:10.825 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 15:25:10.831 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7854] milliseconds
+05-Jan-2026 15:28:54.812 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 15:28:55.453 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1020, securePort=-1, UDP Port=-1, id={109 -85 102 -68 -30 54 74 -76 -92 -30 -16 -97 -18 10 -39 -9 }, payload={}, command={}, domain={}]]
+05-Jan-2026 16:22:42.085 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/clusterapp]
+05-Jan-2026 16:22:42.110 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterdemo-0.0.1-SNAPSHOT.war]
+05-Jan-2026 16:22:44.608 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 16:22:47.538 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterdemo-0.0.1-SNAPSHOT.war] has finished in [5,428] ms
+05-Jan-2026 16:22:52.509 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 16:22:52.831 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 16:22:52.832 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Jan-2026 16:22:52.965 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 16:22:52.973 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 16:22:52.982 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 16:22:52.983 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 16:25:29.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+05-Jan-2026 16:25:29.747 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+05-Jan-2026 16:25:29.749 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+05-Jan-2026 16:25:29.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+05-Jan-2026 16:25:29.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+05-Jan-2026 16:25:29.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Jan-2026 16:25:29.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+05-Jan-2026 16:25:29.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+05-Jan-2026 16:25:29.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Jan-2026 16:25:29.752 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\clustersetup\node-1
+05-Jan-2026 16:25:29.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 16:25:29.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\clustersetup\node-1\conf\logging.properties
+05-Jan-2026 16:25:29.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Jan-2026 16:25:29.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Jan-2026 16:25:29.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Jan-2026 16:25:29.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+05-Jan-2026 16:25:29.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+05-Jan-2026 16:25:29.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+05-Jan-2026 16:25:29.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+05-Jan-2026 16:25:29.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+05-Jan-2026 16:25:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+05-Jan-2026 16:25:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+05-Jan-2026 16:25:29.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote
+05-Jan-2026 16:25:29.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=9000
+05-Jan-2026 16:25:29.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+05-Jan-2026 16:25:29.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+05-Jan-2026 16:25:29.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\clustersetup\node-1
+05-Jan-2026 16:25:29.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\clustersetup\tomcat-home
+05-Jan-2026 16:25:29.762 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\clustersetup\node-1\temp
+05-Jan-2026 16:25:29.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+05-Jan-2026 16:25:29.771 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+05-Jan-2026 16:25:29.989 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 16:25:30.013 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 16:25:30.016 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [608] milliseconds
+05-Jan-2026 16:25:30.085 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Jan-2026 16:25:30.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+05-Jan-2026 16:25:30.093 INFO [main] org.apache.catalina.ha.tcp.SimpleTcpCluster.startInternal Cluster is about to start
+05-Jan-2026 16:25:30.145 INFO [main] org.apache.catalina.tribes.transport.ReceiverBase.bind Receiver Server Socket bound to:[/192.168.0.102:4001]
+05-Jan-2026 16:25:30.167 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.setupSocket Setting cluster mcast soTimeout to [500]
+05-Jan-2026 16:25:30.178 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[4]
+05-Jan-2026 16:25:31.180 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[4]
+05-Jan-2026 16:25:31.182 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Sleeping for [1000] milliseconds to establish cluster membership, start level:[8]
+05-Jan-2026 16:25:32.184 INFO [main] org.apache.catalina.tribes.membership.McastServiceImpl.waitForMembers Done sleeping, membership established, start level:[8]
+05-Jan-2026 16:25:32.239 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war]
+05-Jan-2026 16:25:35.116 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Jan-2026 16:25:38.732 INFO [Tribes-Task-Receiver[Catalina-Channel]-1] org.apache.catalina.tribes.io.BufferPool.getBufferPool Created a buffer pool with max size:[104857600] bytes of type: [org.apache.catalina.tribes.io.BufferPool]
+05-Jan-2026 16:25:39.285 INFO [Catalina-utility-1] org.apache.catalina.ha.tcp.SimpleTcpCluster.memberAdded Replication member added:[org.apache.catalina.tribes.membership.MemberImpl[tcp://{192, 168, 0, 102}:4002,{192, 168, 0, 102},4002, alive=1025, securePort=-1, UDP Port=-1, id={67 91 -93 98 -96 -126 78 -65 -98 112 -105 -85 -46 -95 -47 98 }, payload={}, command={}, domain={}]]
+05-Jan-2026 16:25:39.418 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\clustersetup\node-1\webapps\clusterapp.war] has finished in [7,179] ms
+05-Jan-2026 16:25:39.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\docs]
+05-Jan-2026 16:25:39.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\docs] has finished in [49] ms
+05-Jan-2026 16:25:39.469 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\examples]
+05-Jan-2026 16:25:39.929 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\examples] has finished in [460] ms
+05-Jan-2026 16:25:39.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager]
+05-Jan-2026 16:25:39.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\host-manager] has finished in [60] ms
+05-Jan-2026 16:25:39.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\manager]
+05-Jan-2026 16:25:40.035 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\manager] has finished in [44] ms
+05-Jan-2026 16:25:40.036 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT]
+05-Jan-2026 16:25:40.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\clustersetup\node-1\webapps\ROOT] has finished in [33] ms
+05-Jan-2026 16:25:40.072 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-Jan-2026 16:25:40.091 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-127.0.0.1-9001"]
+05-Jan-2026 16:25:40.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10079] milliseconds
