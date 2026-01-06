@@ -1,0 +1,1064 @@
+06-Jan-2026 12:09:40.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:09:40.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:09:40.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:09:40.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:09:40.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:09:40.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:09:40.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:09:40.231 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:09:40.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:09:40.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:09:40.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:09:40.265 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:09:40.271 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:09:40.508 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:09:40.551 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [575] milliseconds
+06-Jan-2026 12:09:40.623 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:09:40.623 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:09:40.670 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:09:43.146 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:09:46.025 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,353] ms
+06-Jan-2026 12:09:46.028 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:09:46.070 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [45] ms
+06-Jan-2026 12:09:46.073 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:09:46.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [606] ms
+06-Jan-2026 12:09:46.678 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:09:49.152 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:09:52.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [5,429] ms
+06-Jan-2026 12:09:52.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:09:54.531 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:09:57.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [5,048] ms
+06-Jan-2026 12:09:57.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:09:57.198 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [45] ms
+06-Jan-2026 12:09:57.199 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:09:57.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [28] ms
+06-Jan-2026 12:09:57.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:09:57.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [19] ms
+06-Jan-2026 12:09:57.254 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:09:57.322 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16769] milliseconds
+06-Jan-2026 12:17:27.444 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/G:/hexaware/labs/tomcat-performancetesting/conf/tomcat-users.xml]
+06-Jan-2026 12:18:21.573 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:18:21.573 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:18:21.885 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:18:21.949 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:18:21.965 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:18:24.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:18:24.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:18:24.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:18:24.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:18:24.093 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:18:24.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:18:24.364 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [510] milliseconds
+06-Jan-2026 12:18:24.439 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:18:24.439 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:18:24.486 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:18:26.262 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:18:29.973 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,487] ms
+06-Jan-2026 12:18:29.976 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:18:30.022 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [46] ms
+06-Jan-2026 12:18:30.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:18:30.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [352] ms
+06-Jan-2026 12:18:30.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:18:31.735 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:18:34.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,353] ms
+06-Jan-2026 12:18:34.728 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:18:35.793 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:18:38.232 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,504] ms
+06-Jan-2026 12:18:38.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:18:38.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [49] ms
+06-Jan-2026 12:18:38.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:18:38.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [30] ms
+06-Jan-2026 12:18:38.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:18:38.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [22] ms
+06-Jan-2026 12:18:38.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:18:38.413 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14040] milliseconds
+06-Jan-2026 12:24:12.865 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:24:12.865 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:24:13.214 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:24:13.277 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:24:13.292 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:24:22.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:24:22.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:24:22.946 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:24:23.214 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:24:23.261 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [577] milliseconds
+06-Jan-2026 12:24:23.356 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:24:23.356 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:24:23.402 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:24:24.908 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:24:28.908 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,521] ms
+06-Jan-2026 12:24:28.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:24:28.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [42] ms
+06-Jan-2026 12:24:28.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:24:29.331 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [381] ms
+06-Jan-2026 12:24:29.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:24:30.657 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:24:33.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,610] ms
+06-Jan-2026 12:24:33.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:24:34.950 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:24:37.782 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,837] ms
+06-Jan-2026 12:24:37.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:24:37.832 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [49] ms
+06-Jan-2026 12:24:37.833 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:24:37.859 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [27] ms
+06-Jan-2026 12:24:37.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:24:37.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [21] ms
+06-Jan-2026 12:24:37.885 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:24:37.932 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14665] milliseconds
+06-Jan-2026 12:26:18.022 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 12:26:28.069 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:26:30.149 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:26:32.168 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:26:32.168 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:26:32.655 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,586] ms
+06-Jan-2026 12:26:32.678 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:26:32.753 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:26:32.772 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:26:36.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:26:36.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:26:36.477 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:26:36.488 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:26:36.744 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:26:36.776 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [558] milliseconds
+06-Jan-2026 12:26:36.870 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:26:36.870 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:26:36.917 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:26:38.606 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:26:42.688 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,770] ms
+06-Jan-2026 12:26:42.691 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:26:42.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [56] ms
+06-Jan-2026 12:26:42.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:26:43.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [431] ms
+06-Jan-2026 12:26:43.179 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:26:44.679 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:26:48.147 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,968] ms
+06-Jan-2026 12:26:48.150 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:26:49.148 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:26:51.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,535] ms
+06-Jan-2026 12:26:51.685 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:26:51.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [48] ms
+06-Jan-2026 12:26:51.733 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:26:51.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [31] ms
+06-Jan-2026 12:26:51.764 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:26:51.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [16] ms
+06-Jan-2026 12:26:51.796 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:26:51.876 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [15092] milliseconds
+06-Jan-2026 12:27:35.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:35.048 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:35.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:27:35.073 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:27:35.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:27:35.353 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:27:35.385 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1084)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:520)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:955)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:709)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:732)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:264)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1431)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1444)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:82)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1082)
+		... 13 more
+06-Jan-2026 12:27:35.390 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [574] milliseconds
+06-Jan-2026 12:27:35.468 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:27:35.468 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:27:35.516 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:27:37.098 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:27:40.526 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,010] ms
+06-Jan-2026 12:27:40.526 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:27:40.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [32] ms
+06-Jan-2026 12:27:40.558 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:27:40.875 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [317] ms
+06-Jan-2026 12:27:40.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:27:41.964 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:27:45.546 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:27:45.546 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:27:45.975 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:27:46.054 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:27:46.070 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:27:48.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:48.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:27:48.251 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:27:48.503 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:27:48.550 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [561] milliseconds
+06-Jan-2026 12:27:48.660 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:27:48.660 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:27:48.723 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:27:50.388 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:27:53.851 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,128] ms
+06-Jan-2026 12:27:53.851 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:27:53.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [58] ms
+06-Jan-2026 12:27:53.909 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:27:54.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [329] ms
+06-Jan-2026 12:27:54.239 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:27:55.281 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:27:58.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,806] ms
+06-Jan-2026 12:27:58.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:27:59.125 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:28:01.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,845] ms
+06-Jan-2026 12:28:01.890 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:28:01.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [58] ms
+06-Jan-2026 12:28:01.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:28:01.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [33] ms
+06-Jan-2026 12:28:01.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:28:01.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [15] ms
+06-Jan-2026 12:28:02.014 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:28:02.119 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13572] milliseconds
+06-Jan-2026 12:36:22.586 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 12:36:22.611 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war]
+06-Jan-2026 12:36:24.716 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:36:27.042 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war] has finished in [4,431] ms
+06-Jan-2026 12:36:37.049 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webappperformancetesting-0.0.1-SNAPSHOT]
+06-Jan-2026 12:36:37.124 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:36:38.901 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:36:41.179 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,055] ms
+06-Jan-2026 12:36:41.883 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:36:41.883 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:36:42.201 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:36:42.249 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:36:42.265 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:36:43.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:36:43.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:36:43.766 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:36:44.021 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:36:44.054 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [508] milliseconds
+06-Jan-2026 12:36:44.131 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:36:44.131 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:36:44.183 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:36:45.609 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:36:48.577 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,394] ms
+06-Jan-2026 12:36:48.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:36:48.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [33] ms
+06-Jan-2026 12:36:48.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:36:48.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [268] ms
+06-Jan-2026 12:36:48.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:36:49.896 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:36:52.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,506] ms
+06-Jan-2026 12:36:52.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:36:53.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:36:55.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [2,914] ms
+06-Jan-2026 12:36:55.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:36:55.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [31] ms
+06-Jan-2026 12:36:55.345 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:36:55.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [16] ms
+06-Jan-2026 12:36:55.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:36:55.377 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [16] ms
+06-Jan-2026 12:36:55.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:36:55.456 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11404] milliseconds
+06-Jan-2026 12:45:05.873 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 12:45:05.897 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war]
+06-Jan-2026 12:45:07.846 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:45:10.179 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war] has finished in [4,282] ms
+06-Jan-2026 12:45:17.299 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:45:17.299 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:45:17.631 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:45:17.679 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:45:17.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:46:56.658 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:46:56.676 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:46:56.912 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:46:56.943 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [486] milliseconds
+06-Jan-2026 12:46:57.022 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:46:57.022 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:46:57.053 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:46:59.363 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:47:02.571 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,516] ms
+06-Jan-2026 12:47:02.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:47:02.633 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [49] ms
+06-Jan-2026 12:47:02.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:47:03.016 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [383] ms
+06-Jan-2026 12:47:03.017 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:47:04.126 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:47:07.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,095] ms
+06-Jan-2026 12:47:07.112 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:47:08.085 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:47:10.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,272] ms
+06-Jan-2026 12:47:10.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:47:10.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [37] ms
+06-Jan-2026 12:47:10.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:47:10.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [28] ms
+06-Jan-2026 12:47:10.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:47:10.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [28] ms
+06-Jan-2026 12:47:10.476 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:47:10.546 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13599] milliseconds
+06-Jan-2026 12:49:20.634 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war]
+06-Jan-2026 12:49:22.574 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:49:25.064 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT.war] has finished in [4,429] ms
+06-Jan-2026 12:49:35.082 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webappperformancetesting-0.0.1-SNAPSHOT]
+06-Jan-2026 12:49:35.099 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 12:49:35.111 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:49:36.960 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:49:39.257 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,146] ms
+06-Jan-2026 12:50:58.313 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 12:50:58.313 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:50:58.631 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 12:50:58.683 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:50:58.695 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:51:00.779 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [compressableMimeType] to [application/json,text/html,text/plain]
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 12:51:00.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 12:51:00.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 12:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 12:51:00.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 12:51:00.848 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 12:51:01.066 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:51:01.098 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [475] milliseconds
+06-Jan-2026 12:51:01.177 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 12:51:01.177 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 12:51:01.209 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 12:51:02.647 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:51:05.343 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,134] ms
+06-Jan-2026 12:51:05.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 12:51:05.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [48] ms
+06-Jan-2026 12:51:05.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 12:51:05.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [274] ms
+06-Jan-2026 12:51:05.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 12:51:06.676 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:51:09.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,996] ms
+06-Jan-2026 12:51:09.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 12:51:10.676 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 12:51:12.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,221] ms
+06-Jan-2026 12:51:12.882 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 12:51:12.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [32] ms
+06-Jan-2026 12:51:12.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 12:51:12.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [31] ms
+06-Jan-2026 12:51:12.945 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 12:51:12.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [32] ms
+06-Jan-2026 12:51:12.977 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 12:51:13.041 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [11934] milliseconds
+06-Jan-2026 15:16:23.000 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 15:16:23.323 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 15:16:23.394 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 15:16:23.408 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 15:17:22.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 15:17:22.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 15:17:22.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 15:17:22.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 15:17:22.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 15:17:22.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 15:17:22.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 15:17:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 15:17:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 15:17:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 15:17:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 15:17:22.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 15:17:22.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 15:17:22.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 15:17:22.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 15:17:22.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 15:17:22.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 15:17:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 15:17:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 15:17:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 15:17:22.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 15:17:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 15:17:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 15:17:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 15:17:22.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 15:17:22.360 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 15:17:22.364 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 15:17:22.609 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 15:17:22.647 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [508] milliseconds
+06-Jan-2026 15:17:22.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 15:17:22.756 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 15:17:22.803 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 15:17:25.461 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 15:17:28.588 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,784] ms
+06-Jan-2026 15:17:28.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 15:17:28.662 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [60] ms
+06-Jan-2026 15:17:28.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 15:17:29.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [342] ms
+06-Jan-2026 15:17:29.005 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 15:17:30.107 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 15:17:32.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,736] ms
+06-Jan-2026 15:17:32.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 15:17:33.661 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 15:17:35.848 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,106] ms
+06-Jan-2026 15:17:35.849 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 15:17:35.883 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [33] ms
+06-Jan-2026 15:17:35.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 15:17:35.916 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [33] ms
+06-Jan-2026 15:17:35.917 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 15:17:35.938 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [21] ms
+06-Jan-2026 15:17:35.942 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 15:17:36.006 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13358] milliseconds
+06-Jan-2026 15:28:16.208 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 15:28:16.248 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 15:28:18.312 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 15:28:20.799 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,550] ms
+06-Jan-2026 16:05:29.422 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:05:29.743 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:05:29.800 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:05:29.817 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:05:35.281 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:05:35.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:05:35.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:05:35.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:05:35.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:05:35.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:05:35.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:05:35.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:05:35.295 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:05:35.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:05:35.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:05:35.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:05:35.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:05:35.296 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:05:35.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:05:35.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:05:35.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:05:35.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:05:35.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:05:35.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:05:35.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:05:35.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:05:35.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:05:35.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:05:35.299 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:05:35.301 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:05:35.306 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:05:35.561 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:05:35.597 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [518] milliseconds
+06-Jan-2026 16:05:35.670 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:05:35.670 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:05:35.712 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:05:37.361 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:05:41.155 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,441] ms
+06-Jan-2026 16:05:41.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:05:41.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [43] ms
+06-Jan-2026 16:05:41.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:05:41.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [408] ms
+06-Jan-2026 16:05:41.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:05:43.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:05:48.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [6,490] ms
+06-Jan-2026 16:05:48.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:05:49.347 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:05:52.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [4,214] ms
+06-Jan-2026 16:05:52.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:05:52.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [45] ms
+06-Jan-2026 16:05:52.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:05:52.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [36] ms
+06-Jan-2026 16:05:52.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:05:52.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [28] ms
+06-Jan-2026 16:05:52.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:05:52.512 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [16913] milliseconds
+06-Jan-2026 16:14:22.644 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 16:14:22.688 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:14:24.854 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:14:27.306 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,618] ms
+06-Jan-2026 16:14:30.723 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 16:14:30.724 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:14:31.058 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:14:31.107 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:14:31.116 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:14:45.911 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:14:45.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:14:45.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:14:45.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:14:45.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:14:45.918 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:14:45.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:14:45.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:14:45.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:14:45.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:14:45.919 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:14:45.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:14:45.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:14:45.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:14:45.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:14:45.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:14:45.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:14:45.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:14:45.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:14:45.931 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:14:45.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:14:45.938 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:14:46.183 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:14:46.223 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [522] milliseconds
+06-Jan-2026 16:14:46.295 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:14:46.296 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:14:46.343 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:14:48.056 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:14:51.790 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,448] ms
+06-Jan-2026 16:14:51.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:14:51.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [63] ms
+06-Jan-2026 16:14:51.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:14:52.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [396] ms
+06-Jan-2026 16:14:52.253 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:14:53.545 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:14:56.603 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,350] ms
+06-Jan-2026 16:14:56.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:14:57.657 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:15:00.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,565] ms
+06-Jan-2026 16:15:00.171 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:15:00.219 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [49] ms
+06-Jan-2026 16:15:00.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:15:00.255 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [35] ms
+06-Jan-2026 16:15:00.256 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:15:00.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [24] ms
+06-Jan-2026 16:15:00.285 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:15:00.350 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14127] milliseconds
+06-Jan-2026 16:19:50.415 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 16:19:50.465 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:19:52.528 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:19:54.926 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,461] ms
+06-Jan-2026 16:20:11.424 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 16:20:11.425 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:20:11.748 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:20:11.808 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:20:11.820 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:20:13.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:20:13.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:20:13.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:20:13.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:20:13.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:20:13.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:20:13.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:20:13.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:20:13.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:20:13.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:20:13.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:20:13.541 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:20:13.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:20:13.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:20:13.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:20:13.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:20:13.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:20:13.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:20:13.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:20:13.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:20:13.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:20:13.545 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:20:13.548 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:20:13.552 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:20:13.792 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:20:13.830 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [513] milliseconds
+06-Jan-2026 16:20:13.902 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:20:13.903 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:20:13.950 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:20:15.534 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:20:18.620 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,670] ms
+06-Jan-2026 16:20:18.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:20:18.673 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [51] ms
+06-Jan-2026 16:20:18.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:20:18.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [303] ms
+06-Jan-2026 16:20:18.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:20:20.127 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:20:22.893 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,915] ms
+06-Jan-2026 16:20:22.894 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:20:23.993 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:20:26.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,471] ms
+06-Jan-2026 16:20:26.366 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:20:26.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [34] ms
+06-Jan-2026 16:20:26.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:20:26.432 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [32] ms
+06-Jan-2026 16:20:26.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:20:26.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [19] ms
+06-Jan-2026 16:20:26.458 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:20:26.505 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12675] milliseconds
+06-Jan-2026 16:22:46.521 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapps]
+06-Jan-2026 16:22:46.604 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:22:48.756 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:22:51.260 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,656] ms
+06-Jan-2026 16:32:58.967 INFO [Thread-4] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:32:59.288 INFO [Thread-4] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:32:59.344 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapps] appears to have started a thread named [pool-5-thread-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.10/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.10/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.10/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:842)
+06-Jan-2026 16:32:59.345 WARNING [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [webapps] appears to have started a thread named [pool-5-thread-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.10/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.10/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.10/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+ java.base@17.0.10/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+ java.base@17.0.10/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.10/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.10/java.lang.Thread.run(Thread.java:842)
+06-Jan-2026 16:32:59.348 INFO [Thread-4] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:32:59.361 INFO [Thread-4] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:33:07.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:33:07.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:33:07.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:33:07.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:33:07.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:33:07.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:33:07.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:33:07.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:33:07.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:33:07.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:33:07.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:33:07.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:33:07.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:33:07.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:33:07.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:33:07.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:33:07.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:33:07.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:33:07.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:33:07.611 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:33:07.617 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:33:07.860 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:33:07.898 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [529] milliseconds
+06-Jan-2026 16:33:07.997 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:33:07.997 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:33:08.043 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:33:09.719 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:33:13.224 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [5,181] ms
+06-Jan-2026 16:33:13.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:33:13.298 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [70] ms
+06-Jan-2026 16:33:13.299 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:33:13.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [405] ms
+06-Jan-2026 16:33:13.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:33:15.102 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:33:18.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,463] ms
+06-Jan-2026 16:33:18.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:33:19.258 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:33:21.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,483] ms
+06-Jan-2026 16:33:21.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:33:21.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [51] ms
+06-Jan-2026 16:33:21.707 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:33:21.737 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [31] ms
+06-Jan-2026 16:33:21.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:33:21.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [23] ms
+06-Jan-2026 16:33:21.773 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:33:21.838 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13939] milliseconds
+06-Jan-2026 16:36:15.556 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 16:36:15.557 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:36:15.886 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:36:15.946 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:36:15.958 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:36:19.011 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [compressableMimeType] to [application/json,text/html,text/plain]
+06-Jan-2026 16:36:19.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:36:19.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:36:19.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:36:19.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:36:19.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:36:19.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:36:19.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:36:19.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:36:19.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:36:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:36:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:36:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:36:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:36:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:36:19.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:36:19.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:36:19.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:36:19.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:36:19.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:36:19.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:36:19.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:36:19.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:36:19.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:36:19.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:36:19.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:36:19.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:36:19.081 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:36:19.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:36:19.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:36:19.082 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:36:19.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:36:19.089 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:36:19.339 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:36:19.377 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [536] milliseconds
+06-Jan-2026 16:36:19.448 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:36:19.449 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:36:19.486 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:36:21.090 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:36:24.233 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,747] ms
+06-Jan-2026 16:36:24.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:36:24.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [30] ms
+06-Jan-2026 16:36:24.274 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:36:24.588 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [314] ms
+06-Jan-2026 16:36:24.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:36:25.639 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:36:28.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [3,561] ms
+06-Jan-2026 16:36:28.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:36:29.054 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:36:31.516 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,367] ms
+06-Jan-2026 16:36:31.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:36:31.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [44] ms
+06-Jan-2026 16:36:31.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:36:31.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [36] ms
+06-Jan-2026 16:36:31.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:36:31.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [26] ms
+06-Jan-2026 16:36:31.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:36:31.704 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [12326] milliseconds
+06-Jan-2026 16:37:54.125 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Jan-2026 16:37:54.126 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:37:54.449 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Jan-2026 16:37:54.509 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:37:54.521 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:37:56.978 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Server/Service/Connector] failed to set property [compressableMimeType] to [application/json,text/html,text/plain]
+06-Jan-2026 16:37:57.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+06-Jan-2026 16:37:57.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+06-Jan-2026 16:37:57.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+06-Jan-2026 16:37:57.039 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Jan-2026 16:37:57.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Jan-2026 16:37:57.041 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Jan-2026 16:37:57.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+06-Jan-2026 16:37:57.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+06-Jan-2026 16:37:57.042 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Jan-2026 16:37:57.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:37:57.043 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\tomcat-performancetesting\conf\logging.properties
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms128m
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx128m
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:HeapDumpPath=G:\hexaware\heapdump
+06-Jan-2026 16:37:57.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+ExitOnOutOfMemoryError
+06-Jan-2026 16:37:57.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Jan-2026 16:37:57.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Jan-2026 16:37:57.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+06-Jan-2026 16:37:57.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Jan-2026 16:37:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+06-Jan-2026 16:37:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Jan-2026 16:37:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Jan-2026 16:37:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Jan-2026 16:37:57.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Jan-2026 16:37:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:37:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\tomcat-performancetesting
+06-Jan-2026 16:37:57.047 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\tomcat-performancetesting\temp
+06-Jan-2026 16:37:57.051 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+06-Jan-2026 16:37:57.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+06-Jan-2026 16:37:57.301 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:37:57.350 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [536] milliseconds
+06-Jan-2026 16:37:57.436 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Jan-2026 16:37:57.436 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+06-Jan-2026 16:37:57.470 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war]
+06-Jan-2026 16:37:59.045 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:38:02.249 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [G:\hexaware\labs\tomcat-performancetesting\webapps\webapps.war] has finished in [4,779] ms
+06-Jan-2026 16:38:02.251 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs]
+06-Jan-2026 16:38:02.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\docs] has finished in [44] ms
+06-Jan-2026 16:38:02.296 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples]
+06-Jan-2026 16:38:02.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\examples] has finished in [338] ms
+06-Jan-2026 16:38:02.634 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap]
+06-Jan-2026 16:38:03.944 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:38:06.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\heap] has finished in [4,083] ms
+06-Jan-2026 16:38:06.718 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware]
+06-Jan-2026 16:38:07.751 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+06-Jan-2026 16:38:10.362 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\hexaware] has finished in [3,644] ms
+06-Jan-2026 16:38:10.363 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager]
+06-Jan-2026 16:38:10.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\host-manager] has finished in [38] ms
+06-Jan-2026 16:38:10.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager]
+06-Jan-2026 16:38:10.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\manager] has finished in [32] ms
+06-Jan-2026 16:38:10.433 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT]
+06-Jan-2026 16:38:10.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\tomcat-performancetesting\webapps\ROOT] has finished in [21] ms
+06-Jan-2026 16:38:10.464 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Jan-2026 16:38:10.516 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13165] milliseconds

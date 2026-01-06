@@ -1,0 +1,43 @@
+19-Dec-2025 21:35:39.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.50
+19-Dec-2025 21:35:39.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 2 2025 22:57:41 UTC
+19-Dec-2025 21:35:39.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.50.0
+19-Dec-2025 21:35:39.705 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+19-Dec-2025 21:35:39.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Dec-2025 21:35:39.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Dec-2025 21:35:39.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+19-Dec-2025 21:35:39.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+11-LTS-240
+19-Dec-2025 21:35:39.721 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Dec-2025 21:35:39.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50
+19-Dec-2025 21:35:39.722 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50
+19-Dec-2025 21:35:39.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\conf\logging.properties
+19-Dec-2025 21:35:39.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Dec-2025 21:35:39.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Dec-2025 21:35:39.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+19-Dec-2025 21:35:39.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Dec-2025 21:35:39.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50
+19-Dec-2025 21:35:39.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50
+19-Dec-2025 21:35:39.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\temp
+19-Dec-2025 21:35:39.772 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.9] using APR version [1.7.6].
+19-Dec-2025 21:35:39.772 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.5.0 8 Apr 2025]
+19-Dec-2025 21:35:40.001 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+19-Dec-2025 21:35:40.032 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [534] milliseconds
+19-Dec-2025 21:35:40.095 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Dec-2025 21:35:40.095 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.50]
+19-Dec-2025 21:35:40.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\docs]
+19-Dec-2025 21:35:40.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\docs] has finished in [427] ms
+19-Dec-2025 21:35:40.538 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\examples]
+19-Dec-2025 21:35:41.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\examples] has finished in [640] ms
+19-Dec-2025 21:35:41.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\host-manager]
+19-Dec-2025 21:35:41.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\host-manager] has finished in [32] ms
+19-Dec-2025 21:35:41.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\manager]
+19-Dec-2025 21:35:41.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\manager] has finished in [21] ms
+19-Dec-2025 21:35:41.246 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\ROOT]
+19-Dec-2025 21:35:41.267 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [G:\hexaware\labs\apache-tomcat-10.1.50-windows-x64\apache-tomcat-10.1.50\webapps\ROOT] has finished in [21] ms
+19-Dec-2025 21:35:41.283 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+19-Dec-2025 21:35:41.334 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1300] milliseconds

@@ -1,0 +1,7 @@
+\n
+DNS: %{time_namelookup}s\n
+Connect: %{time_connect}s\n
+TTFB: %{time_starttransfer}s\n
+Total: %{time_total}s\n
+payload size: %{size_download} bytes
+\n

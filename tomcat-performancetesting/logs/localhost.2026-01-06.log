@@ -1,0 +1,684 @@
+06-Jan-2026 12:09:43.303 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:09:46.665 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:09:46.665 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:09:46.665 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@217abcc9')
+06-Jan-2026 12:09:49.292 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:09:54.606 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:10:25.339 INFO [http-nio-8080-exec-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:18:21.901 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:18:21.901 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:18:21.901 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:18:21.917 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:18:21.933 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:18:21.933 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:18:26.461 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:18:30.356 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:18:30.356 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:18:30.356 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@690113f0')
+06-Jan-2026 12:18:31.839 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:18:35.867 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:19:24.978 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:24:13.229 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:24:13.229 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:24:13.229 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:24:13.245 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:24:13.261 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:24:13.261 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:24:25.114 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:24:29.318 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:24:29.318 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:24:29.321 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@539953af')
+06-Jan-2026 12:24:30.808 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:24:35.052 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:26:18.027 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:26:18.031 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 12:26:30.236 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:26:32.683 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:26:32.683 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:26:32.689 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:26:32.714 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:26:32.732 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:26:38.811 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:26:43.164 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:26:43.164 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:26:43.166 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21632bf8')
+06-Jan-2026 12:26:44.826 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:26:49.212 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:27:37.265 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:27:40.863 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:27:40.863 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:27:40.866 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4353230')
+06-Jan-2026 12:27:42.105 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:27:45.990 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:27:45.990 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:27:45.990 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:27:46.006 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:27:46.038 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:27:50.559 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:27:54.223 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:27:54.223 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:27:54.223 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4cce889e')
+06-Jan-2026 12:27:55.424 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:27:59.201 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:28:15.395 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:36:22.588 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:36:22.589 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:36:22.594 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 12:36:24.837 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:36:37.050 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:36:39.012 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:36:42.201 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:36:42.201 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:36:42.201 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:36:42.217 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:36:42.233 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:36:45.753 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:36:48.894 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:36:48.894 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:36:48.894 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@539953af')
+06-Jan-2026 12:36:50.039 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:36:53.382 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:37:10.406 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:45:05.875 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:45:05.876 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:45:05.881 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 12:45:07.930 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:45:17.631 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:45:17.631 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:45:17.647 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:45:17.647 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:45:17.663 SEVERE [main] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1217)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1206)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:812)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1217)
+		at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1206)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.stopInternal(ContainerBase.java:812)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardService.stopInternal(StandardService.java:466)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.StandardServer.stopInternal(StandardServer.java:913)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 41 more
+06-Jan-2026 12:45:17.663 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:46:59.488 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:47:03.000 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:47:03.000 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:47:03.003 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4578d654')
+06-Jan-2026 12:47:04.239 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:47:08.149 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:47:13.465 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:49:22.686 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:49:35.083 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:49:35.088 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1405)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webappperformancetesting-0.0.1-SNAPSHOT\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 12:49:35.100 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:49:35.100 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:49:35.104 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1385)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 12:49:37.028 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:49:42.940 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 12:50:58.631 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 12:50:58.631 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 12:50:58.631 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:50:58.648 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:50:58.662 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 12:50:58.662 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 12:51:02.790 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:51:05.665 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 12:51:05.665 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 12:51:05.665 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3d339541')
+06-Jan-2026 12:51:06.787 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:51:10.772 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 12:51:14.187 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 15:16:23.336 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 15:16:23.337 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 15:16:23.342 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 15:16:23.361 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 15:16:23.376 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 15:16:23.376 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 15:17:25.645 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 15:17:28.994 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 15:17:28.994 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 15:17:28.996 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@638b05fb')
+06-Jan-2026 15:17:30.242 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 15:17:33.744 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 15:23:40.831 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 15:28:16.209 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 15:28:16.210 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 15:28:16.213 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1385)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 15:28:18.402 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 15:28:27.214 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:05:29.748 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:05:29.749 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:05:29.752 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:05:29.766 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:05:29.785 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:05:29.785 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:05:37.566 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:05:41.605 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:05:41.605 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:05:41.608 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7c1adb8a')
+06-Jan-2026 16:05:43.646 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:05:49.469 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:12:05.196 INFO [http-nio-8080-exec-35] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:14:22.646 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:14:22.646 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:14:22.653 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1385)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 16:14:24.956 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:14:31.061 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:14:31.061 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:14:31.064 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:14:31.077 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:14:31.092 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:14:48.230 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:14:52.238 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:14:52.238 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:14:52.242 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3ed1446c')
+06-Jan-2026 16:14:53.707 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:14:57.762 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:15:13.131 INFO [http-nio-8080-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:19:50.416 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:19:50.417 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:19:50.423 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.listenerStop Exception sending context destroyed event to listener instance of class [org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener]
+	java.lang.IllegalStateException: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:100)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.getResource(AbstractArchiveResourceSet.java:250)
+		at org.apache.catalina.webresources.StandardRoot.getResourceInternal(StandardRoot.java:273)
+		at org.apache.catalina.webresources.Cache.getResource(Cache.java:64)
+		at org.apache.catalina.webresources.StandardRoot.getResource(StandardRoot.java:212)
+		at org.apache.catalina.webresources.StandardRoot.getClassLoaderResource(StandardRoot.java:221)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2238)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2224)
+		at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1338)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186)
+		at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:135)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer$SpringBootContextLoaderListener.contextDestroyed(SpringBootServletInitializer.java:277)
+		at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4078)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:4688)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:235)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:657)
+		at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1476)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1385)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:296)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:971)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1170)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1174)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1152)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.nio.file.NoSuchFileException: G:\hexaware\labs\tomcat-performancetesting\webapps\webapps\WEB-INF\lib\commons-logging-1.3.5.jar
+		at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+		at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+		at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+		at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+		at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+		at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1429)
+		at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:718)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:252)
+		at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:181)
+		at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+		at org.apache.catalina.webresources.AbstractArchiveResourceSet.openJarFile(AbstractArchiveResourceSet.java:324)
+		at org.apache.catalina.webresources.AbstractSingleArchiveResourceSet.getArchiveEntry(AbstractSingleArchiveResourceSet.java:96)
+		... 32 more
+06-Jan-2026 16:19:52.615 INFO [Catalina-utility-2] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:20:11.752 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:20:11.752 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:20:11.754 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:20:11.769 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:20:11.790 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:20:15.659 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:20:18.966 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:20:18.966 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:20:18.968 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@539953af')
+06-Jan-2026 16:20:20.246 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:20:24.085 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:20:37.848 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:22:46.523 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:22:46.524 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:22:48.840 INFO [Catalina-utility-1] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:22:55.038 INFO [http-nio-8080-exec-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:32:59.293 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:32:59.293 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:32:59.295 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:32:59.310 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:32:59.330 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:32:59.330 INFO [Thread-4] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:33:09.888 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:33:13.688 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:33:13.689 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:33:13.691 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@539953af')
+06-Jan-2026 16:33:15.234 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:33:19.345 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:33:26.829 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:36:15.898 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:36:15.898 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:36:15.900 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:36:15.916 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:36:15.929 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:36:15.930 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:36:21.261 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:36:24.575 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:36:24.575 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:36:24.578 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3d339541')
+06-Jan-2026 16:36:25.774 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:36:29.145 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:36:37.441 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+06-Jan-2026 16:37:54.461 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+06-Jan-2026 16:37:54.461 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+06-Jan-2026 16:37:54.464 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:37:54.480 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:37:54.491 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+06-Jan-2026 16:37:54.492 INFO [main] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+06-Jan-2026 16:37:59.242 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:38:02.622 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+06-Jan-2026 16:38:02.622 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+06-Jan-2026 16:38:02.624 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3d339541')
+06-Jan-2026 16:38:04.083 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:38:07.832 INFO [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+06-Jan-2026 16:38:51.394 INFO [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
