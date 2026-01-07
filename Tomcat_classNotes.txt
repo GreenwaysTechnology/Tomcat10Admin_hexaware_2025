@@ -298,4 +298,492 @@ eg:
    startup.nat
 
 if y run shutdown.bat , tomcat tries to allocate 4gb memory...
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+								  Multi Tomcat setup with communication
+		
+cluster : group of related machines /softwares,communicates each other via common protocal
+						
+Highly available
+scalable 
+
+Lab:
+ We need the following setup:
+
+1.tomcat two instances
+
+G:\hexaware\clustersetup
+	node-1
+	node-2
+	tomcat-home
+
+tomcat-home
+	having shared folders
+ bin
+	-startup.bat
+	-shutdown.bat
+ all server sepcific scripts
+lib
+	shared libs- all jar files
+
+Path setup:
+G:\hexaware\clustersetup\tomcat-home:> set CATALINA_HOME=G:\hexaware\clustersetup\tomcat-home
+
+node-1
+	bin- setenv.bat
+	conf
+	logs
+	temp
+	webapps
+        work
+
+node-2
+	bin- setenv.bat
+	conf
+	logs
+	temp
+	webapps
+        work
+
+open two  cmd prompt
+
+1.setting home path and start server
+2.setting for node 1 and node 2
+
+G:\hexaware\clustersetup\tomcat-home>CATALINA_BASE=G:\hexaware\clustersetup\node-1
+G:\hexaware\clustersetup\tomcat-home>CATALINA_BASE=G:\hexaware\clustersetup\node-2
+
+cluster configuration in each node:
+
+<Engine>
+  <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+  </Cluster>
+</Engine>
+
+Why:
+	session Replication
+			user session data is replicated across all nodes when node fails another node takes over user's session 
+ data without any interruption (high availablity)
+    
+       load balancing:
+		This configurations enables a load balancer with nginx like server
+
+
+Delta Manager:
+
+<Engine>
+  <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+  </Cluster>
+</Engine>
+	 Function: The DeltaManager manages replicated sessions by only sending the deltas (changes) in session data across all nodes in the cluster, rather than the entire session object each time a change is made.
+
+
+Channel:
+org.apache.catalina.tribes.group.GroupChannel in Tomcat 10 is the core Java class for Apache Tribes, a peer-to-peer communication framework used by Tomcat for clustering and session replication.
+
+<Engine>
+  <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+        <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+	<Channel/>
+  </Cluster>
+
+Multicast Configuration:
+
+<Engine>
+  <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+        <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+  <Membership className="org.apache.catalina.tribes.membership.McastService"
+                      address="228.0.0.4"
+                      port="45564"
+                      frequency="500"
+                      dropTime="3000" />
+	<Channel/>
+  </Cluster>
+The class org.apache.catalina.tribes.membership.McastService is the default implementation for multicast-based dynamic cluster membership discovery in Apache Tomcat 10's Tribes module. 
+
+<Engine>
+  <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+        <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+  <Membership className="org.apache.catalina.tribes.membership.McastService"
+                      address="228.0.0.4"
+                      port="45564"
+                      frequency="500"
+                      dropTime="3000" />
+    <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
+            <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender" />
+          </Sender>
+	<Channel/>
+  </Cluster>
+
+Client sender:
+The class org.apache.catalina.tribes.transport.ReplicationTransmitter is a key component within the Apache Tribes library, which is used for the group communication and session replication features in Apache Tomcat 10. 
+
+Reciver:
+     <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
+                    address="auto"
+                    port="4001"
+                    autoBind="100"
+                    selectorTimeout="5000"
+                    maxThreads="6" />
+
+Which receives data from another node 
+
+ReplicationValve:
+The org.apache.catalina.ha.tcp.ReplicationValve in Apache Tomcat 10 documentation is a crucial component for Tomcat clustering/session replication, responsible for detecting session changes at the end of HTTP requests and triggering data replication across cluster nodes via TCP.
+...
+    <!-- Engine -->
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="node1">
+
+      <!-- CLUSTER CONFIG -->
+      <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+        <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+
+          <!-- Multicast membership -->
+          <Membership className="org.apache.catalina.tribes.membership.McastService"
+                      address="228.0.0.4"
+                      port="45564"
+                      frequency="500"
+                      dropTime="3000" />
+
+          <!-- Replication sender -->
+          <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
+            <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender" />
+          </Sender>
+
+          <!-- Replication receiver (UNIQUE PORT PER NODE) -->
+          <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
+                    address="auto"
+                    port="4001"
+                    autoBind="100"
+                    selectorTimeout="5000"
+                    maxThreads="6" />
+        </Channel>
+
+        <!-- Replication filter -->
+        <Valve className="org.apache.catalina.ha.tcp.ReplicationValve"
+               filter="" />
+
+        <!-- Cluster session listener -->
+        <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener" />
+
+      </Cluster>
+
+Cluster session listener:
+
+ <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener" />
+
+The configuration element <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener" /> is a valid component in Apache Tomcat 10 for enabling session replication listeners within a cluster configuration
+
+...............
+node-2 server.xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Server port="8006" shutdown="SHUTDOWN">
+
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener" />
+  <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener" />
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener" />
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener" />
+
+  <GlobalNamingResources>
+    <Resource name="UserDatabase" auth="Container"
+              type="org.apache.catalina.UserDatabase"
+              description="User database that can be updated and saved"
+              factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+              pathname="conf/tomcat-users.xml" />
+  </GlobalNamingResources>
+
+  <Service name="Catalina" jvmRoute="node2">
+
+    <!-- HTTP Connector -->
+    <Connector port="8082" protocol="org.apache.coyote.http11.Http11NioProtocol"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+
+    <!-- AJP Connector -->
+    <Connector protocol="AJP/1.3"
+               port="9002"
+               redirectPort="8443"
+               secretRequired="false" />
+
+    <!-- Engine -->
+    <Engine name="Catalina" defaultHost="localhost">
+
+      <!-- ******** CLUSTER CONFIGURATION ******** -->
+      <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster">
+
+        <Manager className="org.apache.catalina.ha.session.DeltaManager"
+                 expireSessionsOnShutdown="false"
+                 notifyListenersOnReplication="true" />
+
+        <Channel className="org.apache.catalina.tribes.group.GroupChannel">
+
+          <!-- Multicast membership config (same across nodes) -->
+          <Membership className="org.apache.catalina.tribes.membership.McastService"
+                      address="228.0.0.4"
+                      port="45564"
+                      frequency="500"
+                      dropTime="3000" />
+
+          <!-- Replication sender -->
+          <Sender className="org.apache.catalina.tribes.transport.ReplicationTransmitter">
+            <Transport className="org.apache.catalina.tribes.transport.nio.PooledParallelSender" />
+          </Sender>
+
+          <!-- Replication receiver (UNIQUE PER NODE) -->
+          <Receiver className="org.apache.catalina.tribes.transport.nio.NioReceiver"
+                    address="auto"
+                    port="4002"
+                    autoBind="100"
+                    selectorTimeout="5000"
+                    maxThreads="6" />
+        </Channel>
+
+        <!-- Replication event filter -->
+        <Valve className="org.apache.catalina.ha.tcp.ReplicationValve" filter="" />
+
+        <!-- Cluster session listener -->
+        <ClusterListener className="org.apache.catalina.ha.session.ClusterSessionListener" />
+
+      </Cluster>
+      <!-- ******** END CLUSTER CONFIG ******** -->
+
+      <Realm className="org.apache.catalina.realm.LockOutRealm">
+        <Realm className="org.apache.catalina.realm.UserDatabaseRealm"
+               resourceName="UserDatabase" />
+      </Realm>
+
+      <Host name="localhost" appBase="webapps"
+            unpackWARs="true" autoDeploy="true">
+      </Host>
+
+    </Engine>
+  </Service>
+</Server>
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+									 how to test both servers are connect
+
+
+setup nginx server:
+down load nginx server for windows
+
+https://nginx.org/en/download.html
+
+select windows distribution - zip file
+
+extract that file.
+
+how to connect nginx server with tomcat cluster?
+
+in order to do, we need to configuration in two places
+
+server.xml in both nodes - node-1 and node-2
+
+
+AJP:(Apache JServ Protocal)
+  It is used to connect with load balancers/proxy servers like nginx.
+
+node-1 -server.xml
+    <Connector protocol="AJP/1.3"
+               port="9001"
+               redirectPort="8443"
+               secretRequired="false" />
+
+node-2 server.xml
+    <Connector protocol="AJP/1.3"
+               port="9002"
+               redirectPort="8443"
+               secretRequired="false" />
+
+.........................
+
+nginx.conf
+
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+
+
+events {
+    worker_connections  1024;
+}
+
+http {
+   upstream tomcat_cluster {
+       server 127.0.0.1:8081;
+       server 127.0.0.1:8082;
+   }
+
+   server {
+       listen 80;
+
+    location / {
+        proxy_pass http://tomcat_cluster;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cookie_domain ~.* localhost;
+        proxy_cookie_path / /;
+    }
+
+
+   }
+}
+
+spring Boot Application Deployment in Tomcat Cluster:
+..........................................................................................
+
+Spring boot application must be deploymed as war file....
+
+Enable session Replication in your app:
+ 
+We must add a file called web.xml 
+
+Note: in spring boot applications web.xml is not so we need to add this file manually before deployment - this is mandatory.
+
+Myapp
+	|
+	src
+	|
+	 main
+		|
+		java
+		resources
+	        webapp  - this folder must be added
+			|
+		  WEB-INF - this folder must be added
+			|
+		     web.xml
+
+web.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+
+    <distributable/>
+
+</web-app>
+
+start:
+
+steps:
+1.start nginx server
+G:\hexaware\nginx-1.28.1>start nginx
+
+2.start both nodes
+two different cmd
+G:\hexaware\clustersetup\tomcat-home\bin>startup
+G:\hexaware\clustersetup\tomcat-home\bin>startup
+
+output:
+http://localhost/clusterapp/session-test
+
+NODE = G:\hexaware\clustersetup\node-1 | Session ID = B9AD4FB4DBB3249F8416FE84698B92A3.node1
+NODE = G:\hexaware\clustersetup\node-2 | Session ID = C9AB6006BF0F8FC319AEA9B154B8D6D2
+
+now we can see that how nodes are selected.
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Tomcat internal architecture and work flow
+ -single node
+-multi node
+-multi node with cluster setup
+-deployment - war
+-performance tunning 
+	-heap memory 
+        -threads and tunning
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+										Application related perfomance tunning
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+1.Data stucture usage.
+2.Web Application Optimization
+3.Database Optimization.
+
+Web Application:
+Connector:
+ keep-alive:
+     Persistent connections - how long tomcat waits for the next request before closing the tcp connection.
+ maxkeepAliveRequests - limits the number of requests per connection
+						one single tcp connection = 10 requests
+						one single tcp connection = -1 unlimited
+recommeneded 100 requests per connection...
+keepAliveTimeout : sets how long tomcat watis for the next requests before close the connection.
+
+compression -zip  - gzip for web- tomcat supports by configuring this algorthim
+<Connector
+   port="8080"
+   protocol="org.apache.coyote.http11.Http11NioProtocol"
+   compression="on"
+   compressionMinSize="1024"
+   noCompressionUserAgents="gozilla, traviata"
+   compressableMimeType="text/html,text/xml,text/plain,
+     text/css,text/javascript,application/javascript,
+     application/json,application/xml"/>
+
+caching :
+  should be enabled for frequent read data
+  
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Rest api perfomance testing:
+ slow api - block the thread.
+
+    // Define the ExecutorService (Thread Pool)
+    private final ExecutorService executor = Executors.newFixedThreadPool(10);
+
+    @GetMapping("/slow")
+    public CompletableFuture<String> slowAsync() {
+        return CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(10000);
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+            }
+            return "OK";
+        }, executor); // offload work to our specific thread pool
+    }
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+									  Database optimization
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+docker run -d --name  mysql-db -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=mydb -e MYSQL_USER=appuser -e MYSQL_PASSWORD=apppass -p 3306:3306 mysql:8.0 
+
+
 
